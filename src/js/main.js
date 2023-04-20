@@ -1,6 +1,5 @@
-import './lib/lib';
+import $ from './lib/lib';
 
-$('div').addClass().addClass('murat');
-$('div').removeClass('active');
-
-console.log('Hello!');
+$('button').on('click', function () {
+  $(this).hide().show().toggleClass('active');
+});
