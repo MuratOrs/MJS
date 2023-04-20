@@ -1,5 +1,6 @@
 import './lib/lib';
 
-$('.active').show();
+$('div').addClass().addClass('murat');
+$('div').removeClass('active');
 
 console.log('Hello!');
