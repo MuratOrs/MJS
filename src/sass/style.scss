@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  margin-left: 15px;
 }
 
 button {
@@ -13,5 +14,11 @@ button {
 
 .active {
   font-size: 20px;
+  color: blue;
+  font-weight: bold;
+}
+
+.red {
   color: red;
+  font-weight: bold;
 }
