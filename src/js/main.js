@@ -15,3 +15,6 @@ $('div').click(function () {
 // console.log($('.some').closest('.findme').addClass('test'));
 
 console.log($('.findme').siblings().addClass('red'));
+
+$('.findme').fadeOut(1500);
+$('button').fadeIn(6000);
